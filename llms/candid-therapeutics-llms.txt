@@ -1,0 +1,34 @@
+# Candid Therapeutics
+
+> Clinical-stage biotechnology company in San Diego, California developing T-cell engager (TCE) antibody therapies for autoimmune and inflammatory diseases. Launched September 2024 with a $370M Series A. Acquired by UCB, completed 17 June 2026, for up to $2.2 billion. Candid Therapeutics publishes no public API, developer portal, SDK, or machine-readable specification.
+
+## Company
+
+- [Candid Therapeutics](https://www.candidrx.com/): Corporate website.
+- [Overview](https://www.candidrx.com/about/overview/): Mission, T-cell engager approach, and company positioning.
+- [About](https://www.candidrx.com/about/): Company background.
+- [Board of Directors](https://www.candidrx.com/about/board-of-directors/): Governance.
+- [Terms of Use](https://www.candidrx.com/terms-of-use/): Website terms.
+- [Accessibility Statement](https://www.candidrx.com/accessibility-statement/): Accessibility posture.
+
+## Science
+
+- T-cell engager (TCE) bispecific antibodies that redirect T-cells to selectively deplete autoreactive B-cells, targeting deeper and more durable depletion than conventional antibody therapy without the manufacturing burden of cell therapy.
+- Lead investigational asset: cizutamig, a BCMA x CD3 bispecific antibody.
+- Pipeline assembled by acquiring Vignette Bio and TRC 2004, in-licensing differentiated TCE assets for US clinical development.
+
+## Corporate status
+
+- [UCB completes acquisition of Candid Therapeutics](https://www.ucb.com/newsroom/press-releases/article/ucb-completes-acquisition-of-candid-therapeutics-strengthening-next-generation-immunology-pipeline): Completed 17 June 2026; $2.0B upfront plus up to $200M in milestones.
+- [UCB](https://www.ucb.com/): Parent company. Candid pipeline and newsroom links on candidrx.com now redirect to ucb.com.
+- [Forge Global secondary listing](https://forgeglobal.com/candid-therapeutics_stock/): Pre-acquisition secondary-market listing.
+
+## APIs
+
+No APIs. Contract discovery (REST OpenAPI on every candidate host root, GraphQL introspection, MCP tools/list, A2A agent card at both /.well-known/agent-card.json and /.well-known/agent.json) returned nothing. api.candidrx.com, developer.candidrx.com and docs.candidrx.com do not resolve. See well-known/candid-therapeutics-well-known.yml for the probe record.
+
+## Artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/candid-therapeutics/refs/heads/main/apis.yml): APIs.json 0.20 index for this company.
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/candid-therapeutics/refs/heads/main/security/candid-therapeutics-domain-security.yml): Probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture for candidrx.com.
+- [Well-known probe record](https://raw.githubusercontent.com/api-evangelist/candid-therapeutics/refs/heads/main/well-known/candid-therapeutics-well-known.yml): Discovery-document probe results (all absent).

@@ -1,17 +1,37 @@
 aid: candid-therapeutics
 name: Candid Therapeutics
-description: 'Candid Therapeutics is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: 'Candid Therapeutics is a San Diego, California clinical-stage biotechnology
+  company developing T-cell engager (TCE) antibody therapies for autoimmune and inflammatory
+  diseases. Launched publicly in September 2024 with a $370 million Series A financing
+  and assembled by acquiring Vignette Bio and TRC 2004, Candid in-licenses differentiated
+  bispecific TCE assets and advances them through US clinical development. Its approach
+  redirects T-cells to selectively deplete autoreactive B-cells, aiming for deeper
+  and more durable depletion than conventional antibody therapy without the manufacturing
+  burden of cell therapy. Its lead investigational asset, cizutamig, is a BCMA x CD3
+  bispecific antibody. UCB completed its acquisition of Candid Therapeutics on 17 June
+  2026 for up to $2.2 billion ($2.0 billion upfront plus up to $200 million in milestones),
+  and the company now operates as part of UCB. Candid Therapeutics publishes no public
+  API, developer portal, SDK, or machine-readable specification.'
 url: https://raw.githubusercontent.com/api-evangelist/candid-therapeutics/refs/heads/main/apis.yml
+image: https://www.candidrx.com/wp-content/uploads/2024/08/candid-logo.png
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
-x-tier-reason: harvest
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-08-02'
 modified: '2026-08-02'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Life Sciences
+- Immunology
+- Autoimmune Disease
+- Clinical Trials
+- Therapeutics
+- Antibodies
+- Drug Development
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +39,34 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/candid-therapeutics-domain-security.yml
 - type: Website
+  url: https://www.candidrx.com/
+- type: About
+  url: https://www.candidrx.com/about/overview/
+- type: TermsOfService
+  url: https://www.candidrx.com/terms-of-use/
+- type: Accessibility
+  url: https://www.candidrx.com/accessibility-statement/
+- type: BoardOfDirectors
+  url: https://www.candidrx.com/about/board-of-directors/
+- type: SecondaryMarket
   url: https://forgeglobal.com/candid-therapeutics_stock/
+- type: ParentCompany
+  url: https://www.ucb.com/
+- type: LLMsTxt
+  url: llms/candid-therapeutics-llms.txt
+x-acquisition:
+  acquirer: UCB
+  acquirer_slug: ucb
+  announced: '2026-05-03'
+  completed: '2026-06-17'
+  value_usd: 2200000000
+  terms: $2.0B upfront plus up to $200M in milestones
+  source: https://www.ucb.com/newsroom/press-releases/article/ucb-completes-acquisition-of-candid-therapeutics-strengthening-next-generation-immunology-pipeline
+x-enrichment:
+  date: '2026-08-02'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
