@@ -64,5 +64,80 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Candid Therapeutics is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/candid-therapeutics_stock/
+Candid Therapeutics is a San Diego, California clinical-stage biotechnology company developing T-cell engager (TCE) antibody therapies for autoimmune and inflammatory diseases. Launched publicly in September 2024 with a $370 million Series A financing and assembled by acquiring Vignette Bio and TRC 2004, Candid in-licenses differentiated bispecific TCE assets and advances them through US clinical development. Its approach redirects T-cells to selectively deplete autoreactive B-cells, aiming for deeper and more durable depletion than conventional antibody therapy without the manufacturing burden of cell therapy. Its lead investigational asset, cizutamig, is a BCMA x CD3 bispecific antibody. UCB completed its acquisition of Candid Therapeutics on 17 June 2026 for up to $2.2 billion ($2.0 billion upfront plus up to $200 million in milestones), and the company now operates as part of UCB. Candid Therapeutics publishes no public API, developer portal, SDK, or machine-readable specification.
+
+**Areas:** Company · Biotechnology · Pharmaceuticals · Life Sciences · Immunology · Autoimmune Disease · Clinical Trials · Therapeutics · Antibodies · Drug Development
+
+## Candid Therapeutics on APIs.io
+
+Everything profiled for Candid Therapeutics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/candid-therapeutics/](https://apis.io/providers/candid-therapeutics/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Candid Therapeutics Domain Security](https://apis.io/security/candid-therapeutics/candid-therapeutics-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.candidrx.com/)
+- [Terms of service](https://www.candidrx.com/terms-of-use/)
+
+## API Evangelist rating
+
+**Kin Score 7.0** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 10.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 7.8** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/candid-therapeutics/](https://apis.io/providers/candid-therapeutics/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Candid Therapeutics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/candid-therapeutics/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
